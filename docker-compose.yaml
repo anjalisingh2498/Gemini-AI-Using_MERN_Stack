@@ -24,7 +24,6 @@ services:
         - path: ./public
           target: /app
           action: sync
-
   server:
     image: gemini-server-image:latest
     container_name: gemini-server-container
