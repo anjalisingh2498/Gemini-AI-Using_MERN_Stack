@@ -15,8 +15,7 @@ const UserIntroPrompt = () => {
   return (
     <div className={styles["intro-main"]}>
       <img src={commonIcon.googleBigIcon} alt="google big"></img>
-      <p>
-        Experience limitless conversations! <span>Sign in</span> to unlock
+      <p> Experience limitless conversations! <span>Sign in</span> to unlock
         <span> unlimited chat</span> and browse through your entire chat
         history—more than the last 5 interactions.
       </p>
