@@ -14,7 +14,6 @@ export const tokenVerify = (token) => {
     }
 
     const userEmail = decodeToken.email;
-
     user
       .findOne({ email: userEmail })
       .then((userData) => {
